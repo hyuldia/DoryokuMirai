@@ -1,3 +1,4 @@
+<pre>
 努力未来 A Beautiful Star
 努力未来 A Beautiful Star
 努力未来 A Beautiful Star
@@ -56,7 +57,7 @@ I Love You 貶して唸って
 ハッピーラッキー
 こんにちはベイビー
 良い子でいたい
-そりゃつまらない
+そit's つまらない
 ハッピーラッキー
 こんにちはベイビー So sweet
 
@@ -69,3 +70,4 @@ I Love You 貶して唸って
 努力 未来 A Beautiful Star
 努力 未来 A Beautiful Star
 努力 未来 A Beautiful Star
+</pre>
