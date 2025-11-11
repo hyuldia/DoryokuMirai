@@ -19,6 +19,7 @@ body {
   z-index: 20;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   position: relative;
+  border: 2px solid #7e1a1a;
 }
 
 #playmusic {
@@ -34,6 +35,12 @@ body {
 
 #playmusic:hover {
   background-color: #7a1818;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ff4d4d;
+}
+
+h1 {
+  text-shadow: 0 0 5px #ff4d4d, 0 0 10px rgba(255, 77, 77, 0.5);
 }
 
 .music-gif {
@@ -46,6 +53,7 @@ body {
   opacity: 0;
   transition: opacity 0.2s ease;
   z-index: 10;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
 }
 
 #gif-top {
