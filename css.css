@@ -45,41 +45,42 @@ h1 {
 
 .music-gif {
   position: fixed;
-  width: 25vw;
-  height: 40vh;
+  width: 30vw;
+  height: 35vh;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   opacity: 0;
   transition: opacity 0.2s ease;
   z-index: 10;
-  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
+  filter: drop-shadow(0 0 10px rgba(59, 3, 3, 0.4));
 }
 
 #gif-top {
-  top: 50px;
+  top: 2vh;
   left: 50%;
   transform: translateX(-50%);
   background-image: url("https://media1.tenor.com/m/Yc99UMbsvmgAAAAd/chainsaw-man-chainsaw-man-anime.gif");
 }
 
 #gif-bottom {
-  bottom: 50px;
+  bottom: 2vh;
   left: 50%;
   transform: translateX(-50%);
   background-image: url("https://media1.tenor.com/m/TYumfXvkaUYAAAAC/denji-dance-chainsaw-man-dance.gif");
+  max-height: 20;
 }
 
 #gif-left {
   top: 50%;
-  left: 30vh;
+  left: 8vw;
   transform: translateY(-50%);
   background-image: url("https://media1.tenor.com/m/eWCenKoaQQEAAAAC/chainsaw-man-dance.gif");
 }
 
 #gif-right {
   top: 50%;
-  right: 30vh;
+  right: 8vw;
   transform: translateY(-50%);
   background-image: url("https://media1.tenor.com/m/_-pCdVMq4D4AAAAC/future-devil.gif");
 }
