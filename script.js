@@ -89,6 +89,14 @@
 
   const playsong = async function () {
     if (isMusicPlaying) return;
+    if (!partition) {
+      await loadPartition();
+    }
+    if (!Array.isArray(partition)) {
+      console.error("ERREUR PARTITION NON CHARGEE OU PAS ARRAY");
+      stopsong();
+      return;
+    }
     isMusicPlaying = true;
     stopPlayback = false;
     const musicButton = document.getElementById("playmusic");
