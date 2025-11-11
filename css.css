@@ -38,10 +38,8 @@ body {
 
 .music-gif {
   position: fixed;
-  max-width: 30%vw;
-  max-height: 20%vh;
-  width: 20vw;
-  height: 20vh;
+  width: 25vw;
+  height: 40vh;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
